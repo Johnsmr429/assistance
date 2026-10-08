@@ -167,6 +167,7 @@ h1 {
 }
 
 .card { padding: 24px; }
+.grid .card:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .card h2 { margin: 0 0 8px; font-size: 1.35rem; }
 .card p { margin: 0; color: var(--muted); }
 
